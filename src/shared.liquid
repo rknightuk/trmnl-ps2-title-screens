@@ -1,0 +1,5 @@
+{%liquid
+  assign rand_index = "now" | date: "%N" | modulo: games.size
+  assign titlescreenx = games[rand_index] | prepend: 'https://raw.githubusercontent.com/rknightuk/trmnl-ps2-title-screens/main/data/images/'
+  assign titlescreen = 'https://tcrf.net/images/7/75/Wipeout_Fusion_-_Title.png'
+%}
