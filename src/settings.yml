@@ -8,5 +8,12 @@ polling_url: ''
 polling_headers: ''
 polling_body: ''
 id: 130437
+custom_fields:
+- keyname: doesnt_matter
+  name: PS2 Title Screens
+  field_type: author_bio
+  description: Shows a random PS2 game title screen
+  github_url: https://github.com/rknightuk/trmnl-ps2-title-screens
+  learn_more_url: https://rknight.me
 name: PS2 Title Screens
 refresh_interval: 1440

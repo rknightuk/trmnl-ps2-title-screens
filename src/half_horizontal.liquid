@@ -1,12 +1,21 @@
 <!-- POSTER -->
 <style>
-  .image {
-    height:100%;
+  .view.view view--half_horizontal {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    background:#000;
+  }
+  .view.view--half_horizontal #poster {
     width:100%;
-    max-width:100%;
-    object-fit:cover;
+    height:auto;
+    max-height:100%;
+    object-fit:contain;
     object-position:center;
   }
 </style>
 
+<div class="layout">
 <img id="poster" class="image image-dither" alt="PS2 Title Screen" src="{{ titlescreen }}">
+</div>

@@ -1,16 +1,18 @@
-<img id="poster" class="image image-dither" alt="PS2 Title Screen" src="{{ titlescreen }}">
+<div class="layout">
+  <img id="poster" class="image image-dither" alt="PS2 Title Screen" src="{{ titlescreen }}">
 
-<!-- LOGIC -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
+  <!-- LOGIC -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
 
-    /* Drop Bleed and Center */
-    const screen = document.querySelector('.screen');
-    if (screen) {
-      screen.classList.add(
-        'screen--no-bleed',     // removes 10 px padding
-        'layout', 'layout--center'  // centers child both axes
-      );
-    }
-  });
-</script>
+      /* Drop Bleed and Center */
+      const screen = document.querySelector('.screen');
+      if (screen) {
+        screen.classList.add(
+          'screen--no-bleed',     // removes 10 px padding
+          'layout', 'layout--center'  // centers child both axes
+        );
+      }
+    });
+  </script>
+</div>
